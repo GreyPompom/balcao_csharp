@@ -22,7 +22,7 @@ namespace balcao.Entities
 
         public Order(DateTime moment, OrderStatus status, Cliente cliente)
         {
-            Moment = moment;
+                Moment = moment;
                 Status = status;
                 Cliente = cliente;
         }
